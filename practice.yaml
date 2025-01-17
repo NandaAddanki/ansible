@@ -9,4 +9,5 @@
     - name: run nginx
       ansible.builtin.service:
         name: nginx
-        service: started 
+        service: started
+        ensbled: yes
